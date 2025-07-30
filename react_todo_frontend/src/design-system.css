@@ -1,0 +1,112 @@
+:root {
+  /* Colors */
+  --color-ffffff: #ffffff;
+  --color-d6d7ef: #d6d7ef;
+  --color-9395d3: #9395d3;
+  --color-8b8787: #8b8787;
+  --color-000000: #000000;
+  --color-d1d1d6: #d1d1d6;
+  --color-ebebf5: #ebebf5;
+  --color-34c759: #34c759;
+  --color-ffd60a: #ffd60a;
+  --color-b3b7ee: #b3b7ee;
+
+  /* Typography (font-size) */
+  --typo-0-size: 10px;
+  --typo-1-size: 24px; 
+  --typo-2-size: 13px;
+  --typo-3-size: 16px;
+  --typo-4-size: 20px;
+  --typo-5-size: 15px;
+  --typo-6-size: 10px;
+  --typo-7-size: 10px;
+  --typo-8-size: 24px;
+  --typo-9-size: 13px;
+  --typo-10-size: 10px;
+  --typo-11-size: 16px;
+  --typo-12-size: 20px;
+  --typo-13-size: 15px;
+
+  /* Typography (font-weight) */
+  --typo-0-weight: 400;
+  --typo-1-weight: 600;
+  --typo-2-weight: 600;
+  --typo-3-weight: 400;
+  --typo-4-weight: 600;
+  --typo-5-weight: 400;
+  --typo-6-weight: 400;
+  --typo-7-weight: 400;
+  --typo-8-weight: 600;
+  --typo-9-weight: 600;
+  --typo-10-weight: 400;
+  --typo-11-weight: 400;
+  --typo-12-weight: 600;
+  --typo-13-weight: 400;
+
+  /* Typography (line-height) */
+  --typo-0-line: 14.45px;
+  --typo-1-line: 34.68px;
+  --typo-2-line: 18.78px;
+  --typo-3-line: 23.12px;
+  --typo-4-line: 28.9px;
+  --typo-5-line: 21.68px;
+  --typo-6-line: 14.45px;
+  --typo-7-line: 14.45px;
+  --typo-8-line: 34.68px;
+  --typo-9-line: 18.78px;
+  --typo-10-line: 14.45px;
+  --typo-11-line: 23.12px;
+  --typo-12-line: 28.9px;
+  --typo-13-line: 21.68px;
+
+  /* Typography (color assignments) */
+  --typo-6-color: var(--color-9395d3);
+  --typo-7-color: var(--color-8b8787);
+  --typo-8-color: var(--color-ffffff);
+  --typo-9-color: var(--color-9395d3);
+  --typo-10-color: var(--color-000000);
+  --typo-11-color: var(--color-8b8787);
+  --typo-12-color: var(--color-ffffff);
+  --typo-13-color: var(--color-ffffff);
+
+  /* Shadows */
+  --shadow-0: 0 4px 4px 0 #00000020;
+
+  /* Border radius */
+  --radius-1: 1px;
+  --radius-15: 15px;
+  --radius-20: 20px;
+}
+
+/* Jost font-family for all typography */
+body {
+  font-family: "Jost", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.typo-0 { font-size: var(--typo-0-size); font-weight: var(--typo-0-weight); line-height: var(--typo-0-line);}
+.typo-1 { font-size: var(--typo-1-size); font-weight: var(--typo-1-weight); line-height: var(--typo-1-line);}
+.typo-2 { font-size: var(--typo-2-size); font-weight: var(--typo-2-weight); line-height: var(--typo-2-line);}
+.typo-3 { font-size: var(--typo-3-size); font-weight: var(--typo-3-weight); line-height: var(--typo-3-line);}
+.typo-4 { font-size: var(--typo-4-size); font-weight: var(--typo-4-weight); line-height: var(--typo-4-line);}
+.typo-5 { font-size: var(--typo-5-size); font-weight: var(--typo-5-weight); line-height: var(--typo-5-line);}
+.typo-6 { font-size: var(--typo-6-size); font-weight: var(--typo-6-weight); line-height: var(--typo-6-line); color: var(--typo-6-color);}
+.typo-7 { font-size: var(--typo-7-size); font-weight: var(--typo-7-weight); line-height: var(--typo-7-line); color: var(--typo-7-color);}
+.typo-8 { font-size: var(--typo-8-size); font-weight: var(--typo-8-weight); line-height: var(--typo-8-line); color: var(--typo-8-color);}
+.typo-9 { font-size: var(--typo-9-size); font-weight: var(--typo-9-weight); line-height: var(--typo-9-line); color: var(--typo-9-color);}
+.typo-10 { font-size: var(--typo-10-size); font-weight: var(--typo-10-weight); line-height: var(--typo-10-line); color: var(--typo-10-color);}
+.typo-11 { font-size: var(--typo-11-size); font-weight: var(--typo-11-weight); line-height: var(--typo-11-line); color: var(--typo-11-color);}
+.typo-12 { font-size: var(--typo-12-size); font-weight: var(--typo-12-weight); line-height: var(--typo-12-line); color: var(--typo-12-color);}
+.typo-13 { font-size: var(--typo-13-size); font-weight: var(--typo-13-weight); line-height: var(--typo-13-line); color: var(--typo-13-color);}
+
+/* Example utilities for border radius and shadow */
+.radius-1 { border-radius: var(--radius-1);}
+.radius-15 { border-radius: var(--radius-15);}
+.radius-20 { border-radius: var(--radius-20);}
+.shadow-0 { box-shadow: var(--shadow-0); }
+.bg-ffffff { background: var(--color-ffffff);}
+.bg-d6d7ef { background: var(--color-d6d7ef);}
+.bg-9395d3 { background: var(--color-9395d3);}
+.bg-8b8787 { background: var(--color-8b8787);}
+.bg-000000 { background: var(--color-000000);}
+.bg-b3b7ee { background: var(--color-b3b7ee);}
+.bg-ebebf5 { background: var(--color-ebebf5);}
